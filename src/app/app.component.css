@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100wh;
+  border: 2px dotted rebeccapurple;
+}
+.heroes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 30vh;
+  width: 100%;
+  border: 2px solid darkred;
+}
+.heroes-detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50vh;
+  width: 50%;
+  border: 2px solid green;
+}
