@@ -1,10 +1,35 @@
-.container{
+.container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem ;
-  border: 1px solid blue;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0.5rem;
+  /* border: 1px solid blue; */
   height: 25vh;
   width: 18vw;
+}
+.avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10rem;
+  width: 50%;
+  background-color: yellow;
+}
+.avatar > img {
+  height: 10rem;
+  /* width: 100%; */
+}
+.name-id {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 2rem;
+  width: 50%;
+  background-color: rebeccapurple;
+}
+h1 {
+  height: 2rem;
+  width: 100%;
+  margin: auto 0.2rem;
 }

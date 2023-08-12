@@ -17,8 +17,8 @@
 }
 .heroes-detail {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
   width: 50%;
   border: 2px solid green;
