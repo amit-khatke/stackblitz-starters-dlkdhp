@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
+import { Hero } from '../hero';
 
 @Component({
   standalone:true,
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes-datail.component.css'],
 })
 export class HeroesDatailComponent implements OnInit {
-
+  @Input() selectedHero?: Hero;
   constructor() { }
 
   ngOnInit() {

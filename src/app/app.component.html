@@ -1,4 +1,7 @@
 <div class="container">
-  <app-heroes class="heroes"></app-heroes>
-  <app-heroes-datail class="heroes-detail"></app-heroes-datail>
+  <app-heroes class="heroes" (heroSelected)="onHeroSelected()"></app-heroes>
+  <app-heroes-datail
+    class="heroes-detail"
+    [selectedHero]="selectedHero"
+  ></app-heroes-datail>
 </div>
